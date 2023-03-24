@@ -1,0 +1,21 @@
+* {margin: 0;}
+
+html {
+  overflow: hidden;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  background: #ff6b99;
+}
+
+#canvas {
+  position: absolute;
+  align-self: center;
+  transform: translate(50%);
+  right: 50%
+}
